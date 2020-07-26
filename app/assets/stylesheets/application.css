@@ -1,0 +1,124 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+    display: block;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+th {
+	padding-bottom: 10px;
+  display: table-cell;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  line-height: 1.3em;
+  transform: scale(1.0, 0.95);
+}
+
+a {color: inherit;
+}
+
+body {
+  font-size: 15px;
+  line-height: 20px;
+  margin: 30px;
+}
+
+h2 {
+  display: block;
+  font-size: 25px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  padding: 5px 5px;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    padding-right: 10px;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+
+#notice {
+  color: green;
+}
+
+.show-back {
+  padding: 10px 0;
+}
+
+.error-box {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.error {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+.error-message-box {
+    line-height: 18px;
+    margin: 33px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.error-message {
+    font-size: 12px;
+    list-style: square;
+    display: list-item;
+}
+.form-box {
+      padding: 2px;
+    background-color: red;
+    display: table;
+}
+
